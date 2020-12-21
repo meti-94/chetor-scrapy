@@ -21,9 +21,7 @@ class CommentItem(scrapy.Item):
 class ArticleItem(scrapy.Item):
     comments = scrapy.Field()
     title = scrapy.Field()
-    body = scrapy.Field(
-    	input_processor=MapCompose(tomd.convert)
-    	)
+    body = scrapy.Field()
     author = scrapy.Field()
     lastmodified = scrapy.Field()
     readin = scrapy.Field()

@@ -30,7 +30,7 @@ service-identity==18.1.0
 six==1.15.0
 soupsieve==2.0.1
 tomd==0.1.3
-Twisted @ file:///C:/Users/mehdi/Downloads/Twisted-20.3.0-cp38-cp38-win_amd64.whl
+Twisted
 w3lib==1.22.0
 wincertstore==0.2
 zope.interface==5.1.0
