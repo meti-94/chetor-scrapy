@@ -27,7 +27,7 @@ class ChetorSpider(CrawlSpider):
                             response=response
                             )
         for comment in response.selector.xpath("//div[@class='comments-wrap']"):
-            comments = ItemLoader(item=CommentItem(), selector=comment, response=response)
+            # comments = ItemLoader(item=CommentItem(), selector=comment, response=response)
             comments.add_xpath('username', ".//cite[@class='comment-author']/text()")
             comments.add_xpath('publish', ".//time[@class='comment-published']/@datetime")
             comments.add_xpath('content', ".//div[@class='comment-content']/p/text()")
@@ -47,5 +47,5 @@ class ChetorSpider(CrawlSpider):
         article.add_value('slug', response.request.url.split('/')[-2])
         article.add_value('comments', comments.load_item())
         
-        yield article.load_item()
+        return article.load_item()
         

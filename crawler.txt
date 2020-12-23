@@ -1,0 +1,14 @@
+what is scrapy?
+how to set up the environment?
+how to create project in scrapy?
+CrawlSpider and why?
+name - allowed-domains - start_urls
+Rule class 
+LinkExtractor class
+callback function، follow
+Items
+Comment, Article
+parse_item
+comment - selector - username, publish, content (names and Items)
+Article all (slug, comments)
+return

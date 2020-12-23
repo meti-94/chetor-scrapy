@@ -1,0 +1,8 @@
+what is pandas?
+why jupyter?
+regex
+stopwords
+apply
+call api
+keyphrases
+postman
