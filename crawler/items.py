@@ -5,7 +5,7 @@
 
 import scrapy
 from scrapy.loader.processors import MapCompose, TakeFirst, Join
-import tomd
+# import tomd
 
 
 class CommentItem(scrapy.Item):
