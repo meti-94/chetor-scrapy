@@ -1,1 +1,6 @@
-# chetor-scrapy: simple crawler to collect data!
+# chetor-scrapy
+مخزن حاضر در بردارنده یک خزشگر ساده برای جمع آوری مجموعه ای از مقالات سایت 
+[چطور](https://www.chetor.com/)
+و پیاده سازی پروژه برچسب زنی خودکار با استفاده از ماژول های هوشمند پلتفرم 
+[CICAP](cicap.ir)
+میباشد
